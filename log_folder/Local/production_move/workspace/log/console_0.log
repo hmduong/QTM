@@ -1,0 +1,2 @@
+03-04-2023 15:26:33.942 [main] WARN  c.g.a.c.g.s.AbstractGoogleClient.<init> - Application name is not set. Call Builder#setApplicationName.
+03-04-2023 15:26:35.433 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning

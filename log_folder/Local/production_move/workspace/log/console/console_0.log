@@ -1,0 +1,25 @@
+07-04-2023 13:13:29.996 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 6.2.5.Final
+07-04-2023 13:13:30.195 [main] INFO  com.ptweb.production.ProductionMove.logStarting - Starting ProductionMove using Java 17.0.3.1 on 384adb3a5e14 with PID 2912 (/workspace/build/classes/java/main started by root in /workspace)
+07-04-2023 13:13:30.197 [main] INFO  com.ptweb.production.ProductionMove.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-04-2023 13:13:38.926 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-04-2023 13:13:42.352 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 3377 ms. Found 15 JPA repository interfaces.
+07-04-2023 13:13:46.333 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+07-04-2023 13:13:46.397 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+07-04-2023 13:13:46.398 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-04-2023 13:13:46.399 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+07-04-2023 13:13:46.815 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-04-2023 13:13:46.816 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 16316 ms
+07-04-2023 13:13:47.345 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-04-2023 13:13:49.072 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-04-2023 13:13:50.641 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-04-2023 13:13:51.299 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.11.Final
+07-04-2023 13:13:53.272 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-04-2023 13:13:55.018 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+07-04-2023 13:14:04.082 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-04-2023 13:14:04.185 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-04-2023 13:14:09.938 [main] WARN  c.g.a.c.g.s.AbstractGoogleClient.<init> - Application name is not set. Call Builder#setApplicationName.
+07-04-2023 13:14:11.410 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-04-2023 13:14:13.587 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6202f8bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@330d557e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d7d0946, org.springframework.security.web.header.HeaderWriterFilter@1e284d90, org.springframework.web.filter.CorsFilter@ab595e8, org.springframework.security.web.authentication.logout.LogoutFilter@3af6d7a7, com.ptweb.production.security.jwt.AuthTokenFilter@3e0a112f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1dc28c66, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f97e963, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@170937fe, org.springframework.security.web.session.SessionManagementFilter@3f2feab7, org.springframework.security.web.access.ExceptionTranslationFilter@356cb230, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7da59f6e]
+07-04-2023 13:14:14.746 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+07-04-2023 13:14:14.843 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+07-04-2023 13:14:14.871 [main] INFO  com.ptweb.production.ProductionMove.logStarted - Started ProductionMove in 47.755 seconds (JVM running for 50.675)

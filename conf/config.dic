@@ -1,0 +1,24 @@
+LogFolder==log_folder
+Portainer
+	URL==http://localhost:9000
+	API_URL==http://localhost:9000/api
+	USER_NAME==admin
+	PASSWORD==admin
+	PORTAINER_NODE
+		1
+			Name==Local
+			Id==3
+			Containers
+				1
+					Name==production_move
+					Id==production_move
+					Log
+						1==/workspace/log/console/console_0.log
+						2==/workspace/log/tomcat/console_0.log
+				2
+					Name==mysql_server
+					Id==mysql_server
+					Log
+						1==/var/log/mysql/error.log
+						2==/var/log/mysql/general_log.log
+						3==/var/log/mysql/slow_query.log
